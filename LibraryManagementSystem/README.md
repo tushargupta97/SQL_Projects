@@ -405,12 +405,7 @@ branch as b
 ON e.branch_id = b.branch_id
 GROUP BY 1, 2
 ```
-
-**Task 18: Identify Members Issuing High-Risk Books**  
-Write a query to identify members who have issued books more than twice with the status "damaged" in the books table. Display the member name, book title, and the number of times they've issued damaged books.    
-
-
-**Task 19: Stored Procedure**
+**Task 18: Stored Procedure**
 Objective:
 Create a stored procedure to manage the status of books in a library system.
 Description:
@@ -473,6 +468,9 @@ WHERE isbn = '978-0-375-41398-8'
 
 ```
 
+**Task 19: Identify Members Issuing High-Risk Books**  
+Write a query to identify members who have issued books more than twice with the status "damaged" in the books table. Display the member name, book title, and the number of times they've issued damaged books.    
+
 
 
 **Task 20: Create Table As Select (CTAS)**
@@ -499,24 +497,6 @@ Description: Write a CTAS query to create a new table that lists each member and
 
 This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
 
-## How to Use
+## Author - Tushar Gupta
 
-1. **Clone the Repository**: Clone this repository to your local machine.
-   ```sh
-   git clone https://github.com/najirh/Library-System-Management---P2.git
-   ```
-
-2. **Set Up the Database**: Execute the SQL scripts in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries in the `analysis_queries.sql` file to perform the analysis.
-4. **Explore and Modify**: Customize the queries as needed to explore different aspects of the data or answer additional questions.
-
-## Author - Zero Analyst
-
-This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through the following channels:
-
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community for learning and collaboration](https://discord.gg/36h5f2Z5PK)
-
-Thank you for your interest in this project!
+This project showcases SQL skills essential for database management and analysis. 
